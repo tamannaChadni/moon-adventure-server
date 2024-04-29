@@ -61,13 +61,14 @@ async function run() {
 
       const spot = {
         $set: {
-          name: updatedSpot.name,
-          quantity: updatedSpot.quantity,
-          supplier: updatedSpot.supplier,
-          taste: updatedSpot.taste,
-          category: updatedSpot.category,
-          details: updatedSpot.details,
-          photo: updatedSpot.photo,
+          image: updatedSpot.image,
+          country_name: updatedSpot.country_name,
+          location: updatedSpot.location,
+          seasonality: updatedSpot.seasonality,
+          average_cost: updatedSpot.average_cost,
+          travel_time: updatedSpot.travel_time,
+          totalVisitorsPerYear: updatedSpot.totalVisitorsPerYear,
+          short_description: updatedSpot.short_description,
         },
       };
 

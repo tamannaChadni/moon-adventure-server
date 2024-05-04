@@ -1,10 +1,10 @@
 {
-  "name": "moon-adventure-server",
+  "name": "moon-adventure-ltd-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.jx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

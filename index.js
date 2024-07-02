@@ -32,7 +32,7 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     // await client.connect();
     const touristCollection = client.db("touristSpot").collection("spot");
-    const countryCollection = client.db("countryName").collection("country");
+    const countryCollection = client.db("touristSpot").collection("country");
 
     // country api
     app.get("/country", async (req, res) => {
